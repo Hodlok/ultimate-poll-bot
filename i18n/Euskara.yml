@@ -1,1 +1,215 @@
+poll_types:
+    single_vote: 'Boto bakarra'
+    doodle: Doodle
+    block_vote: 'Blokean bozkatu'
+    limited_vote: 'Bozka murriztua'
+    cumulative_vote: 'Bozka akumulatua'
+    count_vote: 'Bozka mugagabea'
+list:
+    polls: 'En klik inkesta kudeatzeko'
+    no_polls: 'Ez daukazu inkestark irekita'
+    no_closed_polls: 'Ez daukazu itxitako inkestarik'
+admin:
+    not_allowed: 'Ez daukazu hau egiteko baimena. Soilik administratzaileak!'
+datepicker:
+    open: 'Data aukeraketa'
+    pick_date: 'Data hau aukeratu'
+    due_date: 'Aukeratu amaiera data'
+    remove_due_date: 'Amaiera data ezabatu'
+poll:
+    anonymous: 'Inkesta anonimoa da!'
+    results_not_visible: 'Emaitza ezkutuak inkesta itxi arte!'
+    vote_times: "\nPertsona bakoitzak *%{amount} aldiz bozkatu dezake*"
+    due: "\n📅 Inkesta hau %{date} egunean amaituko da"
+    closed: "\n⚠️ *Inkesta itxi da* ⚠️"
+    own_poll: 'Sortu zeure inkesta [hemen](https://t.me/ultimate_pollbot)'
+    many_users_voted: '*%{count} pertsonek* bozkatu dute'
+    one_user_voted: '*Pertsona batek* bozkatu du'
+    total_votes: ' (%{count} bozka)'
+    remaining_votes: "\nFalta diren botoak:"
+    remaining_votes_user: '%{name}: %{count} boto'
+    summarized_users: '_y %{count} personas más._'
+    too_many_votes: "⚠️ *Boto gehiegi jaso dira azken minutuan:* ⚠️\nZure botoak gordetzen jarraituko dira baina mezu hau 2 segunduro bakarrik eguneratuko da.\n(Telegramek ez du uzten minutuko mezu kantitate batetik gora bidaltzen talde baten.)\n"
+    doodle:
+        'yes': '├ *Bai:*'
+        maybe: '├ *Beharbada:*'
+        'no': '├ *Ez:*'
+        yes_summarized: "├ *Bai:* %{count} boto\n"
+        maybe_summarized: '├ *Beharbada:* %{count} boto'
+        no_summarized: '├ *Ez:* %{count} boto'
+    doodle_help: "*Egin klik* `a)`, `b)` beheko botoietan aukera ezberdinen izenak ikusteko.\n"
+    please_wait: 'Itxaron momentu bat inkestak sinkronizatu bitartean mesedez ☺️'
+deleted:
+    poll: 'Inkesta ezabatu da.'
+    polls: 'Inkesta guztiak ezabatu dira'
+    closed_polls: 'Inkesta itxi guztiak ezabatu dira'
+callback:
+    error: 'Akats bat gertatu da. Laister konponduko da!'
+    closed: 'Inkesta itxi da'
+    cannot_reopen: 'Inkesta ezin da berriro ireki'
+    cloned: 'Inkesta klonatu da'
+    deleted: 'Inkesta ezabatu da'
+    poll_created: 'Inkesta sortu da'
+    poll_already_created: 'Inkesta dagoeneko sortua dago'
+    poll_no_longer_exists: 'Inkesta hau ez da existitzen.'
+    votes_removed: 'Boto guztiak ezabatu dira'
+    anonymity_changed: 'Anonimotasuna aldatu da'
+    visibility_changed: 'Ikusteko aukera aldatu da'
+    date_changed: 'Data aldatu da: %{date}'
+    date_already_picked: 'Data aukeratua dago'
+    date_picked: 'Data aukeratua: %{date}'
+    due_date_in_past: 'Amaiera data pasatu da'
+    vote:
+        votes_left: '(%{count} geratzen dira)!'
+        your_votes: ' Zure botoak:'
+        changed: 'Botoa aldatu da!'
+        removed: 'Botoa ezabatu da!'
+        registered: 'Botoa gorde da!'
+        no_left: 'Ez da botorik geratzen!'
+        doodle_changed: 'Bozketa mota aldatu da: %{vote_type}'
+        doodle_registered: 'Botoa gorde da (%{vote_type})'
+inline_query:
+    create_first: 'Egin klik hemen lehenengo inkesta sortzeko ;)'
+    create_poll: 'Egin klik inkesta berri bat sortzeko'
+notification:
+    one_week: '*%{name}* inkesta aste bete barru itxiko da'
+    one_day: '%{name}* inkesta egun bat barru itxiko da automatikoki'
+    six_hours: '*%{name}* inkesta 6 ordu barru itxiko da automatikoki'
+    closed: '*%{name}* itxita dago'
+keyboard:
+    done: Listo
+    close: Itxi
+    back: Atzera
+    cancel: Ezeztatu
+    delete: '❌ Ezabatu'
+    reset: '🔨 Errekuperatu'
+    clone: '🧬 Klonatu'
+    reopen: '🔓 Inkesta berriro ireki'
+    share: 'Inkesta konpartitu'
+    close_poll: '🔒 Itxi'
+    settings: '⚙️ Ezarpenak'
+    change_language: '🌐 Hizkuntza aldatu'
+    vote: '✉️ Bozkatu'
+    permanently_close: '⚠️ ¡Inkesta itxi! ⚠️'
+    permanently_delete: '⚠️ ¡Inkesta ezabatu! ⚠️'
+    permanently_anonymize: '⚠️ ¡Inkesta anonimizatu! ⚠️'
+    anonymize: '🔍 Botoak anonimo bihurtu'
+    due_date: '📅 Amaiera data aukeratu'
+    hide_percentage: '○% Portzentaia ezakutatu'
+    show_percentage: '○% Portzentaia erakutsi'
+    new_option: '＋ Aukera berri bat gehitu'
+    remove_option: '－ Aukerak kendu'
+    forbid_user_options: '🍺 Erabiltzaileari aukera berriak sortzea galarazi'
+    allow_user_options: '🍻 Erabiltzaileari aukera berriak sortzen utzi'
+    order_users: 'Erabiltzaileak antolatu %{name}'
+    order_options: 'Antolaketa aukerak %{name}'
+    show_results: '🔎 Boto guztiak ikusi'
+    vote_with_count: '%{option_name} (%{count} botoak)'
+    help:
+        creation: Sortu
+        settings: Ezarpenak
+        notifications: Jakinarazpenak
+        management: Kudeaketa
+        languages: Hizkuntza
+        bugs: Arazoak
+    styling: '🎀 Itxura ezarpenak'
+    summarize_votes: 'Boto asko badaude laburpena egin'
+    dont_summarize_votes: 'Boto guztiak erakutsi'
+    add_new_language: 'Hizkuntza berria gehitu'
+    show_help: '🤔 Laguntza'
+    help_me_out: '❤️ Proiektua ezagutu ❤️'
+    permanently_delete_with_messages: "\n"
+    user:
+        list_polls: '🗓 Inkestak erakutsi'
+        list_closed_polls: '🗓 Itxitako inkestak erakutsi'
+    admin:
+        stats: '📊 Estatistikak'
+sorting:
+    user_chrono: kronologikoki
+    user_name: 'izenez'
+    option_chrono: kronologikoa
+    option_percentage: 'portzentaika'
+    option_name: 'izenez'
+    doodle_sorting: 'erantzunez'
+settings:
+    poll_type: '*Inkesta mota*: %{poll_type}'
+    language: '*Hizkuntza*: %{language}'
+    anonymous: '*Izenak*: Ezkutatuta'
+    not_anonymous: '*Izenak*: Ikusi daitezke'
+    due_date: '*Amaiera data*: %{date}'
+    no_due_date: '*Amaiera data*: Ninguna'
+    results_visible: '*Emaitzak*: Ikusi daitezke'
+    results_not_visible: '*Emaitzak*: Ezkutatuta'
+    user_options: '*Erabiltzaile aukera pertsonalizatuak*: Edozeinek gehitu ditzake aukera berriak'
+    no_user_options: '*Erabiltzaile aukera pertsonalizatuak*: Zuk bakarrik gehitu ditzazkezu aukera berriak'
+    percentage: '*Portzentaia*: Ikusi daiteke'
+    no_percentage: '*Portzentaia*: Ezkutatuta'
+    euro_date_format: '*Data formatua*: EE.HH.UUUU'
+    us_date_format: '*Data formatua*: UUUU-HH-EE'
+    user_sorting: '*Erabiltzaileen ordena*: %{name}'
+    option_sorting: '*Aukeren ordena*: %{name}'
+    change_language: 'Egin klik hizkuntza baten inkesta honetarako aldatzeko.'
+    anonymize: "Inkesta hau anonimo bihurtu nahi duzu?\n\n⚠️ Aukera hau ezin da atzera bota!. ⚠️\n"
+    remove_options: 'Egin klik beheko botoietan nahi ez dituzun aukerak kentzeko.'
+    summarize: '*Botoen laburpena egin*: Boto asko badaude laburpena egin'
+    dont_summarize: '*Botoen laburpena egin*: Boto guztiak erakutsi'
+    permanently_summarized: '*Botoen laburpena egin*: Boto gehiegi, laburpena egingo da.'
+management:
+    permanently_close: "Inkesta hau betirako itxi nahi duzu?\n\nEmaitzak erakutsiko dira baina ezingo du beste inork bozkatu\n⚠️ Aukera hau ezin da atzera bota. ⚠️\n"
+    delete: 'Inkesta hau ezabatu nahi duzu?'
+creation:
+    already_creating: 'Dagoeneko inkesta bat sortzen ari zara. Aurrekoa ezeztau lehenengo berri bat sortu ahal izateko'
+    description: 'Bidalidazu deskribapena'
+    skip_description: Utzi
+    not_allowed: 'Ezin dituzu aukera gehiago gehitu'
+    cancel: 'Aurreko sorkuntza ezeztatu'
+    vote_count_request: 'Bidalidazu pertsona bakoitzak eman dezaken boto kopurua.'
+    keyboard:
+        change: 'Inkesta mota aldatu'
+        anonymity: 'Inkestako izenak ezkutatu'
+        no_anonymity: 'Inkestako izenak erakutsi'
+        results_visible: 'Inkestako emaitzak erakutsi'
+        results_not_visible: 'Emaitzak ezakutatu inkesta itxi arte'
+    option:
+        next: 'Bidali *beste aukera bat*, aukeratu data bat eta gehitu aukera berri bezala. Amaitzen duzunean egin klik *Listo* botoiean.'
+        first: "Bidalidazu aukera bat mesedez. Aukera bat baino gehiago batera bidali ditzazkezu bakoitza linea berri batean idatziz. \n\nGidoi baten atzetik deskribapena ere idatzi dezakezu.\Adibidez `Baba gorriak - oso goxoak daudelako`\n"
+        no_new: '❌ Aukera berria ez da gehitu'
+        single_added: "*%{option}* gehitu da. 👍\nBidali *beste aukera bat*, aukeratu data bat eta gehitu aukera berri bezala. Amaitzen duzunean egin klik *Listo* botoiean."
+        multiple_added: 'Aukera berriak gehitu dira:'
+        finished: 'Aukera guztiak gehitu dira'
+    poll_type_help: "Inkesta mota: *%{poll_type}*\n\n👍 *Boto bakarra Botoa:*\nPertsona bakoitzak boto bakarra du. Bozka mota erabiliena da.\n\n📅 *Doodle:*\nPertsona bakoitzak aukera bakoitzean `bai`, `ez` edo `beharbada` bozkatu dezake. Data bat aukeratzeko modu egokiena da.\n\n🎮 *Blokean bozkatu:*\nPertsona bakoitzak nahi dituen aukera guztiak bozka ditzake. Talde batean aukera bozkatuenak aukeratzeko erabilgarria da, adibidez, zein jokoetara jolastuko den.\n\n🎮 *Bozka murriztua:*\nPertsona bakoitzak boto kantitate bat du nahi duen aukeren artean banatzeko, baina aukera bakoitza behin bakarrik bozka dezake.\n\n📊 *Bozka akumulatua:*\nPertsona bakoitzak boto kantitate bat du nahi duen aukeren artean banatzeko, eta aukera bakoitza bat baino gehiagotan bozka dezake.\n\n🛒 *Bozka mugagabea* (edo erosketa zerrenda) 😎\nPertsona bakoitzak nahi duen bezainbeste boto eman ditzake edozein aukeratan.\nBaliagarria da, adibidez, hurrengo mendi irteerarako jendeak zer eraman nahi duen jakiteko.\n"
+    results_not_visible: Ezkutatuta
+    results_visible: Ikusi daitezke
+    anonymity: Ezkutatuta
+    no_anonymity: Ikusi daitezke
+    init_text: "Sor dezagun inkesta berri bat 👌\n\nInkestaren ezarpenak:\n*Mota*: %{poll_type}\n*Izenak*: %{anonymity}\n*Emaitzak*: %{results_visible}\n\nMesedez, jarraitu pausu hauek:\n1. Zeure erara pertsonalizatu 🙂\n2. Bidalidazu galdera 👇\n"
+    datepicker_text: "*Data aukeratu:*\nData bat aukeratzeko, aukeratu, eta *Data hau aukeratu* klik egin. Amaitzen duzunean egin klik *Listo* botoiean.\n\n*Oraingo ezarpenak:*\n"
+    error:
+        limit_bigger_zero: 'Mesedez, 0 baino zenbaki altuagoa bidalidazu'
+        limit_between: 'Mesedez, 1 eta %{limit} arteko zenbaki bat bidalidazu'
+        markdown: "Mesedez, ez erabili markdown sinboloak izen, deskribapen edo aukeretan. Sinbolo hauek `_`,`*` eta `[` dira.\nMesedez, bidalidazu berriro mezua sinbolo hauek gabe.\n"
+external:
+    canceled: Ezeztatuta
+    notification:
+        pick_poll: 'Aukeratu inkesta zuzena jakinarazpenak aktibatzeko'
+        activated: 'Jakinarazpenak aktibatuta'
+        new_notification_board: 'Mesedez, jakinarazpen taula berria erabili'
+delete:
+    doesnt_exist: 'Ezabatu nahi duzun inkesta ez da existitzen'
+    previous_deleted: 'Inkesta ezabatu da. Idatzi /create berri bat sortzeko.'
+user:
+    language_changed: 'Hizkuntza aldatu da'
+misc:
+    donation: "Kaixo!\n\nNire izena Arne Beer (@Nukesor) da. Ultimate PollBot-eko sortzailea naiz.\n\nUltimate PollBot sortzeko ideia nire lagunek non bazkaldu ez zekitelako sortu nuen! Pila bat aldiz gertatu zen eta Telegram barruan konponbide on eta azkar bat behar genuen! Horrela sortu zen ULTIMATE PollBot.\n\nProiektu honetako lerro bakoitza nire momentu libretan egin dut eta dohainik. Proiektu hau irabazirik gabekoa da, kodigo irekikoa da eta hemen aurkitu dezakezu: [GitHub](https://github.com/Nukesor/ultimate-poll-bot) Honetaz gain, guztia neuk ordaintzen dudan serbitzari batean dago.\n\nMomentu honetan astean 2 eta 10 ordu artean dedikatzen dizkiot proiektu honi eta zure laguntza eskertuko nuke, azken finean hau zuretzat egin dut eta. Edozein laguntza mota eskertuko dut! ☺️\n\nProiektua gustatzen bazaizu begiratu nire profila [Patreonen](https://www.patreon.com/nukesor) edo bidali laguntza hona [PayPal](https://www.paypal.me/arnebeer).\n\n Galderarik baldin baduzu pasa zaitez [nire taldetik](https://t.me/nukesors_projects).\n\n Egun ona izan!\n"
+    start: "🌟Ongi etorri *ULTIMATE* PollBot-era\n\nIdatzi /create edo egin klik beheko botoiean inkesta berri bat sortzeko. Funtzionamendua azaltzen joango gara pixkanaka.\n\n🌐 Hizkuntza aukeratu /language\n❓ Informazio gehiago /help\n\nProiektua gustatu bazaizu pasa zaitez [nire taldetik](https://t.me/nukesors_projects) edo nire [Patreon orritik](https://www.patreon.com/nukesor).\n\n Bot hau kodigo irekikoa da: [GitHub](https://github.com/Nukesor/ultimate-poll-bot).\n"
+    help:
+        intro: "Ezarpen mota ezberdinak daude inkesta bakoitzeko. Aukeratu interesatzen zaizun mota edo irakurri guztiak bestela. 😉\n"
+        creation: "🌟 *Sorkuntza:*\n\nInkesta sortzeko idatzi edo egin klik /create.\nInkesta bakoitzerako ezarpen desberdinak dituzu\n\n*Inkesta mota:* Mota bakoitza inkesta mota bakoitzaren menuan ikus dezakezu.\n*Anonimato:* Inkesta anonimizatu dezakezu, honela izenak ez dira agertuko.\n*Emaitzak ikus daitezke:* Modu honetan, botoak behin inkesta itxi ondoren ikus daitezke bakarrik. Hau oso egokia da ["boto taktikoa" ez gertatzeko](https://en.wikipedia.org/wiki/Tactical_voting) y la influencia del [anclaje](https://en.wikipedia.org/wiki/Anchoring)\n\n-> *Kontuz: ¡Inkesta itxi bat emaitza ezkutuekin itxita egoten jarraitzen du!:*\nInkesta bat berriro irekitzeak, inkesta sortzaileari, botoak ikusten eta bere botoa ikusten utziko dio.\n"
+        settings: "⚙️ *Ezarpenak:*\n\nGainerako ezarpenak behin inkesta sortu ondoren aldatu daitezke:\n\n*Anonimatoa:* Inkesta bat gerora ere anonimizatu daiteke.\n*Portzentaia:* Portzentaia lerroa ezarpen menutik ezkutatu daiteke.\n*Aukerak:* Aukera berriak ezarpen menutik kudeatu daitezke (gehitu edo ezabatu).\n*Erabiltzaileen aukerak:* Beste erabiltzaileek inkestara aukera gehiago gehitzea utzi dezakezu.\n*Ordena:* Aukeren eta erabiltzaileen aukerak ordenatu ditzakezu.\n*Amaiera data:* Data bat ezarri dezakezu non inkesta automatikoki itxiko den.\n"
+        notifications: "📣 *Jakinarazpenak:*\n\nZure taldean jakinarazpenak aktibatzen badituzu, bot-ak inkesta itxi baino egun bat, sei ordu eta ordubete lehenago abixu bat bidaliko du. 😉\n\nTalde batean jakinarazpenak aktibatzeko pauso hauek jarraitu:\n*1.* Inkesta sortu\n*2.* Amaiera data bat jarri ezarpenetan\n*3.* Joan jakinarazpenak bidali nahi dituzun taldera (Bot-a inkesta bidali aurretik gehitu behar da taldera).\n*4.* Erantzun /notify inkestaren mezura\n*5.* Aukeratu inkesta zuzena\n\nZoritxarrez prozesu hau nahiko konplikatua da Telegramek ez bait du uzten bot-en mezuak detektatzen. 😐 Beraz, ez dakigu zein inkesta bidaltzen den talde bakoitzera eta eskuz egin beharra dago.\n"
+        management: "🕰 *Inkesta zaharrak aurkitu:*\n\nHemen bi komando daude /list y /list\\_closed, hauen bitartez aurkitu ditzakezu inkestak.\n\n\n⚠️ *Inkestak ezabatu:*\n\nInkestak banan banan ezabatu ditzakezu inkesta bakoitzeko menutik.\nKomando hau ere badaukazu: /delete\\_closed, honek inkesta itxi guztiak ezabatuko ditu, eta /delete\\_all komandoak inkesta GUZTIAK ezabatuko ditu.\n"
+        languages: "🌐 *Hizkuntza:*\n\nUltimate pollbot hizkuntza ezberdinetan erabili daiteke, baino hizkuntza ofiziala ingelesa da. Hizkuntza berri bat gehitzeko joan GitHub-era, `english.yml` artxiboa kopiatu, zure hizkuntzaren izena jarri eta barruko guztia aldatu.\n\nKontuz ibili Markdown zeinu guztiekin (`**`, `__`, `${}`), bestela gauzak ez dira ondo ibiliko zure hizkuntzan. Itzulketan zerbait apurtzen baduzu, zeuk konpondu mesedez, ni ez naiz sartuko. \n\n\n"
+        bugs: "Normalean jakinarazpen bat jasotzen dut zerbait gaizki dabilenean, baina batzutan gauza batzuekin ez naiz konturatzen! \n\nZerbait ez bada egun batzutan konpontzen, tiket bat ireki [GitHub-en](https://github.com/Nukesor/ultimate-poll-bot) edo [nire taldetik pasa](https: //t.me/nukesors_projects).\n"
+    error: "Errore ezezagun bat gertatu da. Seguraski honen jakinarazpena jaso dut dagoeneko eta lehenbailehen konpontzen saiatuko naize.\n\n
+    start_after_results: 'Aizu! Idatzi /create zeure inkesta sortzeko ☺️'
 
